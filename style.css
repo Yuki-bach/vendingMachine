@@ -2,7 +2,7 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
-  background-image: url(images/background.png);
+  background-image: url("https://github.com/Yuki-bach/vendingMachine/blob/master/background.png?raw=true");
 }
 
 .drink-container {
