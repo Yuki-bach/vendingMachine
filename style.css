@@ -1,0 +1,60 @@
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-image: url(images/background.png);
+}
+
+.drink-container {
+  background-color: white;
+  width: 100vh;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  float: left;
+  padding-top: 10px;
+}
+.drink-container img {
+  width: 200px;
+  height: 200px;
+}
+
+.money-container {
+  background-color: white;
+  display: flex;
+  padding: 20px 75px;
+}
+
+.cash {
+  margin-right: 120px;
+}
+.cash img {
+  width: 100px;
+  height: 100px;
+}
+
+.cash p {
+  text-align: center;
+  font-size: 25px;
+}
+
+.total {
+  display: flex-end;
+}
+
+.container-bottom {
+  background-color: fuchsia;
+  padding: 0 60px;
+}
+.luck {
+  display: flex;
+  justify-content: space-around;
+}
+
+.p-list {
+  background-color: white;
+}
+
+.p-list p {
+  text-align: center;
+}
