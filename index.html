@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>自動販売機</h1>
+    <div class="drink-container">
+      <div class="cola">
+        <img src="images/cola.png" alt="" class="cola-img" />
+        <p>100円</p>
+        <button id="cola">コーラ</button>
+      </div>
+      <div>
+        <img src="images/soda.jpg" alt="" />
+        <p>50円</p>
+        <button id="soda">ソーダ</button>
+      </div>
+      <div>
+        <img src="images/water.png" alt="" />
+        <p>10円</p>
+        <button id="water">お水</button>
+      </div>
+    </div>
+
+    <div class="money-container">
+      <div class="cash">
+        <p>コイン投下口</p>
+        <img src="images/ten.jpeg" class="button" id="ten" alt="" />
+        <img src="images/fifty.jpeg" class="button" id="fifty" alt="" />
+        <img src="images/hundred.jpeg" class="button" id="hundred" alt="" />
+        <img src="images/f_hundred.jpeg" class="button" id="f_hundred" alt="" />
+      </div>
+      <div class="total">
+        <p>TOTAL</p>
+        <h1 id="total">0</h1>
+        <button id="change">お釣り</button>
+      </div>
+    </div>
+    
+    <div class="container-bottom">
+      <h1>ルーレットスタート！</h1>
+      <div class="luck">
+        <h1 id="1">0</h1>
+        <h1 id="2">0</h1>
+        <h1 id="3">0</h1>
+        <h1 id="4">0</h1>
+      </div>
+      <div class="p-list">
+        <p>購入履歴</p>
+        <ul id="purchase"></ul>
+      </div>
+    </div>
+    <h1 id="money-lack">お金が足りません！！</h1>
+    <h1 id="storage-lack">在庫がありません</h1>
+    <script src="main.js"></script>
+  </body>
+</html>
